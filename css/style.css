@@ -1,0 +1,876 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+
+/* ========================================nav part start========================================== */
+.menu-bg{
+    background-color: rgb(0, 128, 128);
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+   z-index: 9999;
+}
+.navbar-brand{
+    font-size: 32px;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.extra{
+    background-color: #5F9EA0	;
+    animation: secondmenu 2s;
+    -webkit-animation: secondmenu 2s;
+}
+@keyframes secondmenu{
+    0%{
+     top: -50px
+    }
+    100%{
+      top: 0px;
+    }
+}
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+.navbar-nav .nav-link.active:hover {
+    color: #fff;
+}
+
+.menu-bg ul li{
+    padding: 0 15px;
+}
+.menu-bg ul li a{
+   color: #222;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 20px;
+}
+.menu-bg ul li:hover a{
+    background-color: #2F4F4F;
+    border-radius: 5px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.nav-btn a{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 40px;
+    border: 2px solid rgb(10, 195, 186);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.nav-btn:hover a{
+    background-color:  rgb(50, 207, 199);
+   border: 2px solid transparent;
+   color: #fff;
+}
+
+/* ========================================nav part end========================================== */
+
+
+
+/* ========================================banner part start========================================== */
+#banner{
+    /* background-color: rgba(0, 128, 128); */
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.banner-left h3{
+font-size: 25px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #222;
+padding-top: 95px;
+}
+.banner-left h1{
+    text-transform: capitalize;
+font-size: 53px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 1px;
+text-align: left;
+color: #222;
+padding-top: 16px;
+}
+.banner-left h5{
+font-size: 20px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 1px;
+text-align: left;
+color: #222;
+padding-top: 24px;
+}
+/* .banner-left .type::before{
+    position: absolute;
+    content: '';
+    top: 40%;
+    left: 15%;
+    height: 65px;
+    width: 7px;
+    background-color: rgb(199, 35, 35);
+    transform: translateY(45%);
+    -webkit-transform: translateY(45%);
+    -moz-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    -o-transform: translateY(45%);
+} */
+.des{
+    position: relative;
+    padding-bottom: 70px;
+}
+.des h6{
+    position: absolute;
+    font-size: 20px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 1px;
+text-align: left;
+color: #222;
+}
+.banner-pera p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #222;
+    padding-top: 20px;
+}
+.banner-img{
+    padding-top: 90px;
+}
+.banner-img img{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.banner-btn{
+    position: relative;
+}
+.banner-btn i{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    color: #49536A;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.banner-btn{
+   padding-top: 30px;
+
+}
+.banner-btn a{
+   padding: 10px 40px;
+   border: 2px solid rgb(10, 195, 186);
+   color: #222;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   transition: 0.6s;
+   -webkit-transition: 0.6s;
+   -moz-transition: 0.6s;
+   -ms-transition: 0.6s;
+   -o-transition: 0.6s;
+}
+.banner-btn a:hover{
+    background-color: rgb(50, 207, 199);
+    border: 2px solid transparent;
+    color:  #2F4F4F;
+}
+
+
+/* ========================================banner part end========================================== */
+
+/* ========================================about part start========================================== */
+#about{
+    background-color: rgba(245, 233, 217, 0.125);
+    padding: 100px 0;
+}
+.bac-to-top i{
+    position: fixed;
+    font-size: 25px;
+    color: #fff;
+    right: 20px;
+    bottom: 20px;
+    background-color: #2F4F4F;
+    padding: 10px 8px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+    display: none;
+}
+.about-left h2{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    text-align: left;
+    color: #222;
+    padding-top: 80px;
+}
+.about-left p{
+    font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+    color: #222;
+    padding-top: 15px;
+}
+.about-left h6{
+    font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+    color: #222;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about-btm1{
+    padding: 25px 35px;
+    border: 2px solid rgba(255, 0, 0, 0.444);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.about-btm1 h2{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: red;
+}
+.about-btm1 h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+}
+.about-btm2{
+    padding: 25px 35px;
+    border: 2px solid rgba(255, 0, 0, 0.444);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.about-btm2 h2{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: red;
+}
+.about-btm2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+}
+.about-right img{
+   width: 100%;
+   height: 700px;
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+}
+
+/* ========================================about part end========================================== */
+
+
+/* ========================================education part start========================================== */
+#education{
+    background-color: aliceblue ;
+    padding: 100px 0;
+}
+.education-left h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding-bottom: 20px;
+}
+.card-body h3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding: 0 60px;
+}
+.card-body:hover h3{
+    color: #fff;
+}
+.card-body span{
+    background-color: #2FBF71;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.card-body:hover span{
+    background-color: #49536A;
+}
+.first{
+    padding-bottom: 30px;
+}
+.second{
+    padding-bottom: 30px;
+}
+.third{
+    padding-bottom: 30px;
+}
+
+/* ========================================education part end========================================== */
+
+/* ========================================what part start========================================== */
+#services{
+    background-color: aliceblue ;
+    padding: 90px 0;
+}
+.what-top h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.first{
+    padding-bottom: 50px;
+}
+.card{
+    background-color: aliceblue;
+}
+.card-body h5{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+   padding-left: 60px;
+  padding-top: 40px;
+}
+.card-body p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding: 0 60px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.card-body i{
+    position: absolute;
+   font-size: 40px;
+   padding-top: 40px;
+}
+.card-body:hover{
+    background-color: #008080;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card-body:hover h5{
+    background-color: #008080;
+    color: #fff;
+}
+.card-body:hover p{
+    background-color: #008080;
+    color: #fff;
+}
+
+/* ========================================what part end========================================== */
+
+
+/* ========================================portfolio part start========================================== */
+#portfolio{
+    background-color: rgba(245, 233, 217, 0.125);
+    padding: 100px 0;
+}
+.portfolio_top h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding-bottom: 40px;
+}
+.portfolio-img{
+    padding-bottom: 20px;
+}
+.portfolio-img img{
+    opacity: 0.9;
+}
+.portfolio-img img:hover{
+   opacity: 1;
+}
+/* ========================================portfolio part end========================================== */
+
+
+/* ========================================skill part start========================================== */
+#skill{
+    background-color: rgba(245, 233, 217, 0.125);
+    padding: 90px 0;
+}
+.skill-top h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding-bottom: 20px;
+}
+.skill-pera p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #222;
+    padding-bottom: 30px;
+}
+.progress{
+   margin: 30px 0;
+}
+.html{
+    position: relative;
+}
+.html h2{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #49536A;
+}
+.html h3{
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: right;
+    color: #49536A;
+}
+.css{
+    position: relative;
+}
+.css h2{
+    position: absolute;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #49536A;
+}
+.css h3{
+    position: absolute;
+    right: 0px;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: right;
+    color: #49536A;
+}
+.JavaScript{
+    position: relative;
+}
+.JavaScript h2{
+    position: absolute;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #49536A;
+    text-transform: uppercase;
+}
+.JavaScript h3{
+    position: absolute;
+    right: 0px;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: right;
+    color: #49536A;
+}
+.Bootstrap{
+    position: relative;
+}
+.Bootstrap h2{
+    position: absolute;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #49536A;
+    text-transform: uppercase;
+}
+.Bootstrap h3{
+    position: absolute;
+    right: 0px;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: right;
+    color: #49536A;
+}
+.Psd{
+    position: relative;
+}
+.Psd h2{
+    position: absolute;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #49536A;
+    text-transform: uppercase;
+}
+.Psd h3{
+    position: absolute;
+    right: 0px;
+    top: -27px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: right;
+    color: #49536A;
+}
+
+/* ========================================skill part end========================================== */
+
+/* ========================================blogs part start========================================== */
+#blogs{
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.blog-top h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    text-align: center;
+}
+.blog-pera p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    text-align: center;
+    padding: 20px;
+}
+.card-body1 h5{
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding: 10px;
+}
+.card-body1 p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #222;
+    padding: 0 10px;
+}
+.card-btn{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.card-btn a{
+    color: #222;
+    padding: 8px 30px;
+    border: 2px solid rgba(58, 146, 223, 0.477);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.card-btn a:hover{
+    background-color: #008080;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.blogpost{
+    padding-top: 50px;
+}
+.card img:hover{
+    opacity: .6;
+}
+
+/* ========================================blogs part end========================================== */
+
+
+/* ========================================contact part start========================================== */
+#contact{
+    background-color: rgba(245, 233, 217, 0.125);
+    padding: 90px 0;
+}
+.contact-top h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #222;
+    text-align: center;
+}
+.contact-pera p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #222;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form{
+    border: 2px solid #5b9898;
+    padding: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.name label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #222;
+    text-align: left;
+}
+.name input{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #222;
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+}
+.email label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #222;
+    text-align: left;
+}
+.email input{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #222;
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+}
+.phone label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #222;
+    text-align: left;
+}
+.phone input{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #222;
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+}
+.message label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #222;
+    text-align: left;
+    padding-top: 20px;
+}
+.message textarea{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #222;
+    padding-left: 10px;
+    width: 100%;
+}
+.form-btn{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.form-btn a{
+    position: relative;
+    padding: 15px 556px;
+    border-radius: 2px;
+    background-color: #1391A6;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.form-btn a:hover{
+    background-color: #008080;
+}
+/* .form-btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    text-transform: capitalize;
+    color: #000;
+    padding: 15px 40px;
+    border: 2px solid #008080;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.form-btn a:hover{
+    background-color: #008080;
+    border: 2px solid transparent;
+    color: #fff;
+} */
+.box{
+    border: 2px solid #008080;
+    margin-top: 40px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.box1{
+    border: 2px solid #008080;
+    margin: 20px 15px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.box1 i{
+    margin-left: 153px;
+    margin-top: 20px;
+    font-size: 35px;
+    color: #008080;
+    padding: 15px 15px;
+    border: 2px solid #008080;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.box1 span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5E6472;
+    margin-left: 75px;
+}
+.phn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5E6472;
+    margin-left: 122px;
+}
+.mail{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5E6472;
+    margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+
+/* ========================================contact part end========================================== */
